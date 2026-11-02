@@ -11,7 +11,7 @@ Vue.component('formtitle',{
 });
 //Blog Title Comp
 Vue.component('blogtitle',{
-    template : '<span>comments</span>'
+    template : '<span> comments</span>'
 });
 var btitle = new Vue({
     el : 'h2'

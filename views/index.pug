@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  include includes/content.pug
+  img(
+    :src="post.profilepic"
+    @click="authorinfo(posts, post)"
+)
